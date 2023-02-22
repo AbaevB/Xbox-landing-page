@@ -236,3 +236,40 @@ justify-content: end;
     padding: 20px;
 }
 
+
+/*-------------section-design-------------*/
+
+.section-design {
+    background-image: url("../img/design.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-design__content    {
+    padding-left: 100px;
+
+}
+
+.section-design__title  {
+    text-align: left;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.section-design__descr  {
+    margin-bottom: 37px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+}
+
+.section-design__btn    {
+    padding: 20px;
+    
+}
+
+.section-design__btn_right  {
+    padding-left: 23px;
+    padding-right: 23px;
+}
