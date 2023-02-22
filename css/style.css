@@ -38,7 +38,7 @@ body {
 }
 
 .navbar-dark .navbar-toggler-icon   {
-    background-image: url("/img/togler.svg");
+    background-image: url("../img/togler.svg");
 }
 
 /*---hero---*/
@@ -105,10 +105,10 @@ justify-content: end;
     background: linear-gradient(90deg, rgba(0, 0, 0, 5e-05) 0%, rgba(0, 0, 0, 0.7) 100%);
 }
 .carousel-control-prev-icon {
-    background-image: url("/img/icon-prev.svg");
+    background-image: url("../img/icon-prev.svg");
 }
 .carousel-control-next-icon {
-    background-image: url("/img/icon-next.svg");
+    background-image: url("../img/icon-next.svg");
 }
 
 .carousel-indicators [data-bs-target]{
