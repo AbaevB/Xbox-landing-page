@@ -17,6 +17,12 @@ body {
     padding-bottom: 140px;
 }
 
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 .section-title {
     margin-bottom: 40px;
     text-align: center;
@@ -24,6 +30,17 @@ body {
     line-height: 56px;
 }
 /*-----header-----*/
+.btn-outline-success    {
+    color: #7DD42F;
+    border-color: #7DD42F;
+}
+
+.btn-outline-success:hover  {
+   color: #fff; 
+   background-color: #7DD42F;
+   border-color: #7DD42F;
+}
+
 
 .header {
     background-color: #373A3C;
@@ -31,6 +48,10 @@ body {
 
 .section-hero   {
    background-color: #373A3C; 
+}
+
+.navbar-dark .navbar-nav .nav-link  {
+    color: #7DD42F;
 }
 
 .navbar-dark .navbar-toggler    {
@@ -102,11 +123,11 @@ justify-content: end;
 
 
 .carousel-control-prev {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 5e-05) 100%); 
+    background : linear-gradient(90deg,  #000, transparent);
 
 }
 .carousel-control-next  {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 5e-05) 0%, rgba(0, 0, 0, 0.7) 100%);
+    background: linear-gradient(90deg, transparent, #000);
 }
 .carousel-control-prev-icon {
     background-image: url("../img/icon-prev.svg");
@@ -272,4 +293,50 @@ justify-content: end;
 .section-design__btn_right  {
     padding-left: 23px;
     padding-right: 23px;
+}
+
+/*-------------footer-------------*/
+
+.footer {
+   padding-top: 58px;
+   padding-bottom: 40px; 
+   color: #fff;
+   background-color: #373A3C;
+}
+
+.footer__top-title  {
+    margin-bottom: 34px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7DD42F;
+}
+
+.footer__top-block:not(:last-child) {
+    margin-bottom: 49px;
+}
+
+.footer__item:not(:last-child)  {
+    margin-bottom: 29px;
+}
+
+.footer__top-content    {
+    padding-left: 85px;
+}
+
+.footer__link   {
+   font-size: 14px;
+   line-height: 16px;
+   color: #fff;
+   text-decoration: none; 
+   outline: none;
+}
+
+.footer-bottom  {
+    padding-top: 19px;
+    border-top: 1px solid #fff;
+}
+
+.social_item:not(:last-child)   {
+    margin-right: 20px;
 }
