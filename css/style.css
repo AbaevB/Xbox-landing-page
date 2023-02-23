@@ -172,6 +172,9 @@ justify-content: end;
     
 }
 
+.section-best__block:not(:last-child)  {
+    margin-bottom: 20px;
+}
 .best-card {
     color: #435766;
     background-color: #fff;
