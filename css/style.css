@@ -57,6 +57,14 @@ body {
 .navbar-dark .navbar-toggler    {
     border-color: #8dd83d;
 }
+.dropdown-menu {
+    background-color: #373A3C;
+    color: #7DD42F;
+}
+
+.dropdown-item{
+    color: #7DD42F; 
+}
 
 .navbar-toggler:focus   {
   box-shadow: none;  
