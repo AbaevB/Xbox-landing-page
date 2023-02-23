@@ -362,24 +362,39 @@ justify-content: end;
 
 
 @media (max-width: 1200px) {
+    .carousel-caption   {
+        bottom: 5rem;
+    }
+
     .best-card__image{
         max-width: 100%;
     } 
 }
 
-@media (max-width: 768px) {
-   
-    .footer__list {
-        display: flex;
-    }
 
-    .footer__item:not(:last-child)  {
-        margin: 0;
-        margin-right: 20px;
-    }
-}
 
 @media (max-width: 992px) {
+
+    .carousel-caption   {
+        bottom: 3rem;
+    }
+
+    .carousel-caption__title   {
+        font-size: 24px;
+        line-height: 150%;
+    }   
+    .carousel-caption__subtitle {
+        font-size: 18px;
+        line-height: 120%;
+    } 
+    .carousel-caption__descr    {
+        font-size: 12px;
+
+    }
+
+
+
+
     .section-design__content    {
         padding: 0;
         
@@ -412,6 +427,18 @@ justify-content: end;
         margin-right: 20px;
     }
 
+}
+
+@media (max-width: 768px) {
+   
+    .footer__list {
+        display: flex;
+    }
+
+    .footer__item:not(:last-child)  {
+        margin: 0;
+        margin-right: 20px;
+    }
 }
 
 @media (max-width: 410px)   {
