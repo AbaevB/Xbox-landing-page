@@ -2,7 +2,7 @@
 
 
 body {
-    max-width: 1400px;
+    /*max-width: 1400px;*/
     margin: 0 auto;
     font-family: 'Helvetica Neue', sans-serif;
     font-family: 'Helvetica 25 UltraLight', sans-serif;
@@ -354,4 +354,68 @@ justify-content: end;
 
 .social_item:not(:last-child)   {
     margin-right: 20px;
+}
+
+
+/*---------------------media------------------------*/
+
+
+
+@media (max-width: 1200px) {
+    .best-card__image{
+        max-width: 100%;
+    } 
+}
+
+@media (max-width: 768px) {
+   
+    .footer__list {
+        display: flex;
+    }
+
+    .footer__item:not(:last-child)  {
+        margin: 0;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .section-design__content    {
+        padding: 0;
+        
+        }
+        .section-design__button-wrapper {
+            flex-direction: column;
+    }
+    
+    .section-design__btn:not(:last-child)   {
+        margin-bottom: 10px;
+    }
+
+    .footer__top-content    {
+        padding-left: 0;
+    }
+
+    .footer__top-block {
+        margin-bottom: 20px;
+    }
+
+    .footer__top-content_3    {
+        margin-bottom: 0px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__top-content_3 .footer__top-title   {
+        margin: 0;
+        margin-right: 20px;
+    }
+
+}
+
+@media (max-width: 410px)   {
+    .footer__item:not(:last-child)  {
+        margin-right: 10px;
+    }
 }
